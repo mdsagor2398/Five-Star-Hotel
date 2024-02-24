@@ -68,6 +68,7 @@
     justify-content: space-between;
     gap: 150px;
     padding-top: 40px;
+    padding-bottom: 45px;
 }
 
 .hero-text {
@@ -104,6 +105,169 @@
 /*------------------------------
    Hero Section Style End Here 
 --------------------------------*/
+
+/*------------------------------
+   Hero-2 Section Style Start Here 
+--------------------------------*/
+
+.hero-2-content {
+    display: flex;
+    gap: 29px;
+    padding-top: 98px;
+    padding-bottom: 100px;
+}
+
+.sup-header {
+    color: #F05E37;
+    font-size: 16px;
+}
+
+.main-header {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.hero-2-text p {
+    font-size: 16px;
+    color: #AAAAAA;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.icon-1,
+.icon-2 {
+    display: flex;
+    gap: 28px;
+}
+
+.icon-1 img,
+.icon-2 img {
+    padding-top: 10px;
+}
+
+.div-2 h3 {
+    font-size: 24px;
+    color: rgb(250, 218, 114);
+}
+
+.div-2 p {
+    font-size: 14px;
+}
+
+.hero-btn {
+    padding-top: 30px;
+}
+
+.hero-2-btn {
+    padding: 15px 32px;
+    background-color: #F05E37;
+}
+
+/*------------------------------
+   Hero-2 Section Style End Here 
+--------------------------------*/
+
+/*------------------------------
+   small-div Style Start Here 
+--------------------------------*/
+
+.simple-text {
+    text-align: center;
+    padding-top: 98px;
+}
+
+.simple-text h1 {
+    font-size: 50px;
+}
+
+.div-flex {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 30px;
+
+}
+
+.icons-div {
+    border: 1px solid #AAAAAA;
+    padding: 12px 15px;
+    text-align: center;
+}
+
+/*------------------------------
+   small-div Style End Here 
+--------------------------------*/
+
+/*------------------------------
+   food-house Style start Here 
+--------------------------------*/
+.icon-all i {
+    color: #F05E37;
+}
+
+.dollar-icon {
+    color: #F05E37;
+}
+
+.grid-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.new {
+    display: flex;
+    border: solid 1px rgb(97, 97, 97);
+
+}
+
+.food-img img {
+    padding: 20px;
+
+
+}
+
+.food-text {
+    padding: 29px;
+    padding-bottom: 0;
+}
+
+
+.food-text h2 {
+    font-size: 24px;
+}
+
+.food-text p {
+    font-size: 12px;
+    padding-top: 9px;
+}
+
+.last-icon {
+    display: flex;
+}
+
+.last-icon i {
+    color: #F05E37;
+    padding-top: 27px;
+}
+
+.last-icon p {
+    color: #F05E37;
+    font-size: 30px;
+}
+
+.view-all a {
+    padding: 16px 35px;
+    background-color: #F05E37;
+    position: relative;
+    left: 570px;
+
+}
+
+
 
 
 
@@ -155,7 +319,42 @@
         max-width: 400px;
     }
 
+
+
     /* Hero Section Style End Here */
+
+    /* Hero-2 Section Style Start Here */
+
+    .hero-img {
+        max-width: 350px;
+
+    }
+
+    .main-header {
+        font-size: 30px;
+    }
+
+    /* Hero-2 Section Style End Here */
+
+    /* small-div Style Start Here */
+
+    .simple-text {
+        padding-top: 48px;
+    }
+
+    /* small-div Style End Here */
+
+    /* food-house Style start Here */
+
+    .grid-line {
+        grid-template-columns: 1fr;
+    }
+
+    .view-all a {
+        left: 300px;
+    }
+
+    /* food-house Style end Here */
 }
 
 /*-----------------------------
@@ -184,7 +383,6 @@
 
     /* Header Nav Style End Here */
 
-
     .hero-content {
         flex-direction: column-reverse;
 
@@ -197,4 +395,74 @@
     .img-1 {
         max-width: 320px;
     }
+
+    /* Hero-2 Section Style End Here */
+
+    .hero-2-content {
+        flex-direction: column;
+    }
+
+    .hero-2-text {
+        text-align: center;
+    }
+
+    .icon-1,
+    .icon-2 {
+        display: block;
+    }
+
+    /* small-div Style Start Here */
+
+    .simple-text {
+        font-size: 30px;
+    }
+
+    .div-flex {
+        gap: 0px;
+
+    }
+
+    .div-flex p {
+        font-size: 9px;
+    }
+
+    .div-flex img {
+        max-width: 20px;
+    }
+
+    /* food-house Style start Here */
+
+    .food-img img {
+        max-width: 140px;
+        padding-top: 60px;
+    }
+
+    .icon-all i {
+        font-size: 10px;
+        padding: unset;
+    }
+
+    .food-text h2 {
+        font-size: 23px;
+    }
+
+    .food-text p {
+        font-size: 10px;
+        padding: unset;
+    }
+
+    .last-icon i {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    .last-icon p {
+        font-size: 18px;
+    }
+
+    .view-all a {
+        display: none;
+    }
+
+    /* food-house Style start Here */
 }
